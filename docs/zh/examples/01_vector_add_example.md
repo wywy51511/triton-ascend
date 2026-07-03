@@ -8,7 +8,7 @@
 
 计算内核:
 
-```bash
+```python
 import torch
 import torch_npu
 
@@ -46,7 +46,7 @@ def add_kernel(x_ptr,  # 指向第一个输入向量的指针。
 - 生成 z 张量；
 - 用适当的 grid/block sizes 将上述内核加入队列。
 
-```Python
+```python
 def add(x: torch.Tensor, y: torch.Tensor):
     # 需要预分配输出。
     output = torch.empty_like(x)

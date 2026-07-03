@@ -196,7 +196,7 @@ TTIR 是 Triton 编译器前端生成的中间表示（Intermediate Representati
 
 TTIR 层面仍基于 Triton 原生抽象（如 `!tt.ptr<f32>`、`tt.load`/`tt.store` 等），尚未映射到底层硬件的具体内存模型或执行单元，是平台无关的高层次 IR。
 
-#### 3.4.1 TTAdapter IR（Target-Specific Adapter Representation）
+#### 3.4.2 TTAdapter IR（Target-Specific Adapter Representation）
 
 - TTAdapter IR 样例
 查看 kernel.ttadapter.mlir 如下：

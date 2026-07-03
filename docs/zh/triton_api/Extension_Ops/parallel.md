@@ -33,7 +33,6 @@ triton.language.parallel(arg1, arg2=None, step=None, num_stages=None,
 
 ### 2.2 类型支持
 
-A3：
 
 | | int8 | int16 | int32 | uint8 | uint16 | uint32 | uint64 | int64 | fp16 | fp32 | fp64 | bf16 | bool |
 |------|-------|-------|-------|-------|--------|--------|--------|-------|------|------|------|------|------|
@@ -42,7 +41,7 @@ A3：
 
 ### 2.3 特殊限制说明
 
-`bind_sub_block` 为真时在IR中并体现出跟`range`的区别，功能是否实现待验证。
+`bind_sub_block` 为真时在IR中并体现跟`range`的区别，功能是否实现待验证。
 
 ## 3. 使用方法
 

@@ -94,7 +94,7 @@ quay.io/ascend/triton:3.2.1-a3-ubuntu22.04-py3.11 \
 docker build \
 --network host \
 --build-arg TARGETPLATFORM=linux/arm64 \
--t triton:3.2.1-a3-ubuntun22.04-py3.11-aarch64 \
+-t triton:3.2.1-a3-ubuntu22.04-py3.11-aarch64 \
 -f Dockerfile .
 ```
 
@@ -104,7 +104,7 @@ docker build \
 docker build \
 --network host \
 --build-arg TARGETPLATFORM=linux/amd64 \
--t triton:3.2.1-a3-ubuntun22.04-py3.11-x86_64 \
+-t triton:3.2.1-a3-ubuntu22.04-py3.11-x86_64 \
 -f Dockerfile .
 ```
 
